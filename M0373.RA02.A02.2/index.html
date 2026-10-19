@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Inici - TMDB</title>
+    <meta name="description" content="Pàgina principal del projecte web sobre pel·lícules TMDB.">
+    <link rel="icon" href="hogar.png">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                 alt="Logotip de TMDB" height="25">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="buscador.html">Buscador</a></li>
+                <li><a href="contacte.html">Contactes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>BUSCAR una pel·lícula</h1>
+            <p>Milions de títols, un sol cercador.</p>
+
+            <form method="get" action="https://www.themoviedb.org/search">
+                <input type="search" name="query"
+                       placeholder="Escriu aquí..." required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section id="resultats">
+            <h2>Resultats</h2>
+
+            <article>
+                <h3>Resultat 1</h3>
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg"
+                     alt="Imatge del primer resultat" height="100">
+                <p>Aquest és el primer resultat de la cerca.</p>
+            </article>
+
+            <article>
+                <h3>Resultat 2</h3>
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/1n37BJchWHLiSYQkuFxe5KjB951.jpg"
+                     alt="Imatge del segon resultat" height="100">
+                <p>Aquest és el segon resultat de la cerca.</p>
+            </article>
+
+            <article>
+                <h3>Resultat 3</h3>
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/iISM36voS1E8gX9BM0DVK0kgi3E.jpg"
+                     alt="Imatge del tercer resultat" height="100">
+                <p>Aquest és el tercer resultat de la cerca.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 La meva primera web</p>
+    </footer>
+</body>
+</html>
